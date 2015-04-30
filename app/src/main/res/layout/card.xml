@@ -2,18 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:background="@color/white"
+              android:background="@drawable/card_bg"
               android:descendantFocusability="blocksDescendants"
               android:orientation="vertical"
               android:padding="8dp"
     >
 
     <TextView
-        android:id="@+id/tv_title"
+        android:id="@+id/tv_caption"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="caption"
         android:textSize="20sp"
-        android:textStyle="normal"/>
+        android:textStyle="normal"
+        />
 
     <ImageView
         android:id="@+id/iv_normal"
@@ -21,6 +23,9 @@
         android:layout_height="200dp"
         android:background="#c9c9c9"
         android:minHeight="200dp"
-        android:scaleType="centerCrop"/>
+        android:scaleType="centerCrop"
+        android:src="@drawable/image3"
+
+        />
 
 </LinearLayout>
